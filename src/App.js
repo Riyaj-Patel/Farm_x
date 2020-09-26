@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import { Getambee } from './Getambee';
+import React from 'react';
+import Getambee from './Getambee';
 
 function App() {
   
 
   return (
     <div>
-      <Getambee />
+      <Getambee/>
       hello
+     
     </div>
     
 
