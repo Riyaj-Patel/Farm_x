@@ -15,7 +15,7 @@ class Navibar extends Component {
           <Navbar collapseOnSelect expand="lg" bg="light" className="pb-1">
   <Navbar.Brand href="#home" className="navbar-brand">
     <img
-        src="./acro-logo.jpg"
+        src="./Acro-Logo.png"
         width="50"
         height="50"
         className="d-inline-block align-top"
