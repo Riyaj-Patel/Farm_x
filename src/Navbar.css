@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto+Slab:wght@600&display=swap");
+.navbar-dark {
+  background: white;
+  background-color: aliceblue;
+}
+nav .navbar-nav a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black !important;
+  font-size: 1.1rem;
+  font-weight: 150;
+}
+nav .navbar-nav a:hover {
+  color: green !important;
+}
+
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
+  color: black !important;
+  font-size: 1.7rem;
+  margin-left: 50px;
+}
