@@ -7,7 +7,11 @@ import {
     
 
 } from 'react-bootstrap';
-import PropTypes from 'prop-types';
+import HomeIcon from '@material-ui/icons/Home';
+import InfoIcon from '@material-ui/icons/Info';
+import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
+import AccessibilityIcon from '@material-ui/icons/Accessibility';
+
 
 class Navibar extends Component {
     render() {
@@ -15,7 +19,7 @@ class Navibar extends Component {
           <Navbar collapseOnSelect expand="lg" bg="light" className="pb-1">
   <Navbar.Brand href="#home" className="navbar-brand">
     <img
-        src="./Acro-Logo.png"
+        src={process.env.PUBLIC_URL + 'Acro-Logo.png'}
         width="50"
         height="50"
         className="d-inline-block align-top"
@@ -26,10 +30,10 @@ class Navibar extends Component {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#Services">Services</Nav.Link>
-      <Nav.Link href="#About">About us</Nav.Link>
-      <Nav.Link href="#Contact">Contact us</Nav.Link>
+      <Nav.Link href="#home"><HomeIcon/> Home</Nav.Link>
+      <Nav.Link href="#Services"><AccessibilityIcon/> Services</Nav.Link>
+      <Nav.Link href="#About"><InfoIcon/> About us</Nav.Link>
+      <Nav.Link href="#Contact"><PermContactCalendarIcon/> Contact us</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar> 

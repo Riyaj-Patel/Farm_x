@@ -1,0 +1,10 @@
+.container .row h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+  border-bottom: 3px solid green;
+  display: inline-block;
+}
+.container .row h1:hover {
+  font-size: 3rem;
+  cursor: pointer;
+}

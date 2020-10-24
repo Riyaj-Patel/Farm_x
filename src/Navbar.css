@@ -19,7 +19,11 @@ nav .navbar-nav a:hover {
   color: black !important;
   font-size: 1.7rem;
   margin-left: 50px;
+  animation: jackInTheBox;
+  animation-delay: 4s;
+  animation-duration: 2s;
 }
+
 .navbar-brand .green {
   color: green;
 }
