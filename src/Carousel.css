@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto+Slab:wght@600&display=swap");
+
+.carousel-caption .an1s {
+  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+.carousel-caption .an2s {
+  animation: bounceInRight;
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+.carousel-caption .an3s {
+  animation: fadeInUp;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
 .carousel .carousel-item img {
   height: 300px;
 }
@@ -38,6 +54,8 @@
   background-color: #edbb00;
 }
 .carousel-indicators li {
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
 }
 @media only screen and (max-width: 575.98px) {

@@ -21,14 +21,15 @@ class Navibar extends Component {
         className="d-inline-block align-top"
         alt="Acro-xf logo"
       />
-      Acro-XF
+      Acro-<span className="green">XF</span>
       </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#pricing">Services</Nav.Link>
-      <Nav.Link href="#home">Contact us</Nav.Link>
+      <Nav.Link href="#Services">Services</Nav.Link>
+      <Nav.Link href="#About">About us</Nav.Link>
+      <Nav.Link href="#Contact">Contact us</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar> 
