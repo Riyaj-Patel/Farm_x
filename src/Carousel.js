@@ -1,7 +1,6 @@
 import React from 'react';
 import './Carousel.css';
-import { Wave } from 'react-animated-text';
-import PropTypes from 'prop-types';
+
 
 const Carousel = props => {
     return (

@@ -12,6 +12,7 @@ nav .navbar-nav a {
 }
 nav .navbar-nav a:hover {
   color: green !important;
+  text-decoration: none;
 }
 
 .navbar-brand {
@@ -26,4 +27,8 @@ nav .navbar-nav a:hover {
 
 .navbar-brand .green {
   color: green;
+}
+
+nav .navbar-nav .menu {
+  color: green !important;
 }

@@ -8,12 +8,22 @@ import "../node_modules/animate.css/animate.min.css";
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 import "./index.css";
 import Homepage from "./Homepage";
+import About from "./About";
+import Services from "./Services";
+import Contact from "./Contact";
+import {Switch, Route, Redirect} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Homepage />
-    </div>
+    <>   
+    <Switch>
+        <Route exact path="/"  component={Homepage}    />
+         <Route exact path="/about"  component={About}    />
+          <Route exact path="/service"  component={Services}    />
+           <Route exact path="/contact"  component={Contact}    />
+           <Redirect to="/" />
+    </Switch>
+    </>
   );
 }
 

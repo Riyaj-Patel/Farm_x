@@ -1,0 +1,117 @@
+.testimons h2 {
+  position: relative;
+}
+/* .testimons  h2::after {
+    content: "";
+    width: 130px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #ffc107;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  } */
+.col-md-8 {
+  max-width: 100% !important;
+}
+.testimons .carousel-inner .carousel-item .img-box {
+  width: 500px;
+  height: 310px;
+  border: none;
+}
+.testimons > .carousel-control-prev {
+  left: -100px;
+}
+.testimons > .carousel-control-next {
+  right: -100px;
+}
+.testimons .carousel-indicators li {
+  display: none;
+}
+.testimons .carousel-inner .carousel-item p {
+  padding-top: 30px;
+  font-size: 15px;
+}
+/* .testimons > .carousel-indicators {
+    top: 320px;
+  } */
+@media only screen and (max-width: 360px) {
+  .testimons .carousel-inner .carousel-item p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box {
+    width: 255px;
+    height: 160px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box img {
+    width: 100px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 415px) {
+  .testimons .carousel-inner .carousel-item p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box {
+    width: 280px;
+    height: 165px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box img {
+    width: 100px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 416px) and (max-width: 768px) {
+  .testimons .carousel-inner .carousel-item p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 12px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box {
+    width: 450px;
+    height: 210px;
+  }
+  .testimons .carousel-inner .carousel-item .img-box img {
+    width: 100px;
+    height: 150px;
+  }
+}
+
+/* @media only screen and (max-width: 991.98px) {
+    .testimons .carousel-inner .carousel-item p {
+      margin-top: 0;
+      padding-top: 0;
+      font-size: 15px;
+    }
+    .testimons .carousel-inner .carousel-item .img-box {
+      width: 360px;
+      height: 260px;
+    }
+    .testimons .carousel-inner .carousel-item .img-box img {
+      width: 200px;
+      height: 220px;
+    }
+  } */
+
+/* @media only screen and (min-width: 1199.98px) {
+    .testimons .carousel-inner .carousel-item p {
+      margin-top: 0;
+      padding-top: 0;
+      font-size: 10px;
+    }
+    .testimons .carousel-inner .carousel-item .img-box {
+      width: 260px;
+      height: 160px;
+    }
+    .testimons .carousel-inner .carousel-item .img-box img {
+      width: 100px;
+      height: 120px;
+    }
+  }
+  */

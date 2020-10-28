@@ -1,0 +1,61 @@
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 275px;
+  height: 220px;
+  z-index: 1;
+}
+#f1_container #f1_card {
+  place-items: center;
+}
+#f1_container #f1_card img {
+  min-width: 250px;
+  max-height: 180px;
+}
+#f1_container #f1_card h6 {
+  margin-left: 30px;
+  font-size: large;
+  font-weight: 600;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #3ff536;
+}
+.serv-txt {
+  color: #5ec21c;
+  background: #ffffff;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #5ec21c;
+  background: #ffffff;
+  animation: backInUp;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
