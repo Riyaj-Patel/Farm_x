@@ -11,6 +11,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
+import { NavLink } from 'react-router-dom';
 
 
 function Footer(props) {
@@ -22,10 +23,10 @@ function Footer(props) {
                 <div className="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
-                        <li><HomeIcon /><a href="#">Home</a></li>
-                        <li><InfoIcon /><a href="#">About</a></li>
-                        <li><AccessibilityIcon /><a href="#">Services</a></li>
-                        <li><PermContactCalendarIcon /><a href="#">Contact</a></li>
+                        <li><HomeIcon /><NavLink  to="/">Home</NavLink></li>
+                        <li><InfoIcon /><NavLink  to="/about">About</NavLink></li>
+                        <li><AccessibilityIcon /><NavLink  to="/service">Services</NavLink></li>
+                        <li><PermContactCalendarIcon /><NavLink  to="/contact">Contact us</NavLink></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">

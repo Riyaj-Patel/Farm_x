@@ -15,9 +15,9 @@ function About(props) {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <img 
-                        src={process.env.PUBLIC_URL + 'car2.jpg'}
+                        src="https://cdn4.vectorstock.com/i/1000x1000/27/13/smart-farming-futuristic-technologies-in-farm-vector-26982713.jpg"
                         className="img-fluid w-100" 
-                        alt="Responsive image" 
+                        alt="Responsive image1" 
                         />
                     </div>
                     <div className="col-12 col-md-6">
@@ -34,10 +34,16 @@ function About(props) {
                         <div className="card-body">
                             <h3>What We Do</h3>
                             <p>
-                                                            Exceptional Web Solutions
-                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            i) Tracking the present farm detail of farmers.
+                            <br/>
+                            ii) Predict the accurate NPK Quantity.
+                            <br/>
+                            iii) Suggest the different fertilizers.
+                            <br/>
+                            iv) Perfect Crop prediction according to seasons and soil types.
+                            <br/>
+                            v) Gather the different weather reports and show the warnings.
 
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur
                             </p>
                         </div>
                         </div>
@@ -52,12 +58,13 @@ function About(props) {
                         </div>
                         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
-                        <h3>Our Missions</h3>
+                        <h3>The foremost mission is to make farming as profitable bussiness.</h3>
                             <p>
-                                    Exceptional Web Solutions
-                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur
+                                <h5>AND</h5>
+                            i) To get the accurate amount of NPK requirement for soil.<br />
+                            ii) Provide different chemical fertilizers according to Soil.<br />
+                            iii) Weather Reports.<br />
+                            iv) Variety of crops to sow as per Soil reports.<br />
                             </p>
                             
                         </div>
@@ -80,30 +87,30 @@ function About(props) {
                 <div className="card my-card">
                 <img 
                 className="d-block card-img-top"
-                src="http://nicesnippets.com/demo/profile-1.jpg"
-                alt="card-image" />
+                src={process.env.PUBLIC_URL + "bg2.jpeg"}
+                alt="card-image1" />
                 <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">RIYAJ PATEL</p>
                 </div>
                 </div>
                 </div>
                 <div className="col-12 col-md-4">
                 <div className="card my-card">
                 <img className="d-block card-img-top"
-                src="http://nicesnippets.com/demo/profile-1.jpg"
-                alt="card-image" />
+                src={process.env.PUBLIC_URL + "bg2.jpeg"}
+                alt="card-image11" />
                 <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">SAHIL PARASWAL</p>
                 </div>
                 </div>
                 </div>
                 <div className="col-12 col-md-4">
                 <div className="card my-card">
                 <img className="d-block card-img-top"
-                src="http://nicesnippets.com/demo/profile-1.jpg"
-                alt="card-image" />
+                src={process.env.PUBLIC_URL + "bg2.jpeg"}
+                alt="card-image111" />
                 <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">SANSKAR CHANDAK</p>
                 </div>
                 </div>
                 </div>

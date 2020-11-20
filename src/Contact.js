@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Contact.css';
 import Footer from './Footer';
 import Navibar from './Navbar';
@@ -37,11 +38,18 @@ function Contact(props) {
                 <h3 className="text-white">Get a quote</h3>
                 <p className="text-secondary">Fill up the form and our Team will get back to you within in 24 hours</p>
             </div>
-            <div className="links" id="bordering"> <a href="#" className="btn rounded text-white p-3"><i className="fa fa-phone icon text-primary pr-3"></i>+0123 4567 8910</a> <a href="#" className="btn rounded text-white p-3"><i className="fa fa-envelope icon text-primary pr-3"></i>hello@flowbase.com</a> <a href="#" className="btn rounded text-white p-3"><i className="fa fa-map-marker icon text-primary pr-3"></i>102 street 2714 Don</a> </div>
+            <div className="links" id="bordering"> 
+            <Link to="/contact" className="btn rounded text-white p-3">
+                <i className="fa fa-phone icon text-primary pr-3"></i>+0123 4567 8910</Link>
+                <Link to="/contact" className="btn rounded text-white p-3">
+                <i className="fa fa-envelope icon text-primary pr-3"></i>hello@flowbase.com</Link> 
+                <Link to="/contact" className="btn rounded text-white p-3">
+                <i className="fa fa-map-marker icon text-primary pr-3"></i>102 street 2714 Don</Link>
+            </div>
             <div className="pt-lg-4 d-flex flex-row justify-content-start">
-                <div className="pad-icon"> <a className="fa fa-facebook text-white" href="#"></a> </div>
-                <div className="pad-icon"> <a className="fa fa-twitter text-white" href="#"></a> </div>
-                <div className="pad-icon"> <a className="fa fa-instagram text-white" href="#"></a> </div>
+                <div className="pad-icon"> <Link className="fa fa-facebook text-white" to="/"></Link> </div>
+                <div className="pad-icon"> <Link className="fa fa-twitter text-white" to="/"></Link> </div>
+                <div className="pad-icon"> <Link className="fa fa-instagram text-white" to="/"></Link> </div>
             </div>
         </div>
       

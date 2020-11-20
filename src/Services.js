@@ -16,17 +16,25 @@ function Services(props) {
           <div className="col-12 col-sm-8 col-md-8">
             <h1>Acro-XF</h1>
             <p>
-              Acro-XF is the best Agriculture app for Indian farmers which helps
-              them take critical decisions in their farming business to increase
-              profitability. It harnesses the state of the art technologies like
-              Global positioning, Satellite imagery, big data analytics, machine
-              learning and image analytics to usher the farmers into the era of
-              digital farming.
+            The proposed system is “ACRO-XF”. The user only has to fill a farm health report to the web
+            through his Smartphone. With the help of soil test report we will find out the requirement of
+            different nutrients present in the soil. These identification will help us to determine the most
+            specific fertilizers and their amounts that should be spread in the crops. This will help us to
+            reduce the extra amount of chemicals in crop and will also help to reduce the total farming
+            expenditures. Weather plays an important role in agricultural production. It has a profound
+            influence on crop growth, development and yields; on the incidence of pests and diseases; on
+            water needs; and on fertilizer requirements. So we’ll provide accurate prediction of Weather
+            warnings. We will Help the user to Select the type of seed according to his crop requirement
+            and his weather conditions, With the help of the soil reports and weather conditions we will
+            suggest the most suitable type of seed which can eve be a hybrid. We will Help the user to
+            Select the Vegetables to be grown in between the empty period of kharif and rabi season.
+            Usually the field is left empty during this season.
+
             </p>
           </div>
           <div className="col col-sm col-md">
             <img
-              src={process.env.PUBLIC_URL + "car1.jpg"}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVIuPm8zNLJ9MtJfwtujc0XCRmy2mcBeF-tw&usqp=CAU"
               className="img-fluid img-thumbnail"
               alt="imags"
             />
@@ -50,8 +58,12 @@ function Services(props) {
                         <h6>Fertilizers Recommend</h6>
                     </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>With the help of soil test report we will find out the
+                            requirement of different nutrients present in the soil.
+                            These identification will help us to determine the most
+                            specific fertilizers and their amounts that should be spread
+                            in the crops.
+                            </p>
                     </div>
                     </div>
                     </div>
@@ -62,11 +74,10 @@ function Services(props) {
                     <div className="front face">
                     <img src={process.env.PUBLIC_URL + 'smart.png'}
                         alt="Responsive ima 2"  />
-                        <h6>Fertilizers Recommend</h6>
+                        <h6>Analysis of Yield</h6>
                     </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>To predict the yield accprding to farming activities</p>
                     </div>
                     </div>
                     </div>
@@ -77,11 +88,14 @@ function Services(props) {
                     <div className="front face">
                     <img src={process.env.PUBLIC_URL + 'cloudy.svg'}
                         alt="Responsive ima 3"  />
-                        <h6>Fertilizers Recommend</h6>
+                        <h6>Weather Prediction</h6>
                     </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>For optimal productivity at a given
+                        location, crops and cropping practices must be such that while
+                        their cardinal phased weather requirements match the temporal
+                        march of the relevant weather element(s), endemic periods of
+                        pests, diseases and hazardous weather are avoided. </p>
                     </div>
                     </div>
                     </div>
@@ -95,10 +109,13 @@ function Services(props) {
                     <div className="front face">
                     <img src={process.env.PUBLIC_URL + 'agriculture.svg'}
                         alt="Responsive ima 4"  />
-                        <h6>Fertilizers Recommend</h6>                    </div>
+                        <h6>Crop Recommend</h6>                    </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>We will Help the user to Select the Vegetables to be grown
+                        in between the empty period of kharif and rabi season.
+                        Usually the filed is left empty during this season. This time
+                        can be use to enhance the fertility of soil in a natural ways
+                        by planting crops that can help in it</p>
                     </div>
                     </div>
                     </div>
@@ -109,10 +126,14 @@ function Services(props) {
                     <div className="front face">
                     <img src={process.env.PUBLIC_URL + 'pesticide.svg'}
                         alt="Responsive ima 5"  />
-                        <h6>Fertilizers Recommend</h6>                    </div>
+                        <h6>Minimal Pest Attack Alert</h6>                    </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>Pest and Weed will reduce the production So it
+                        is necessary to control weed and pest before
+                        they ruin the crop.
+                        • With the help of ML we can predict the pest
+                        and weed attack on crop.
+                      </p>
                     </div>
                     </div>
                     </div>
@@ -123,10 +144,14 @@ function Services(props) {
                     <div className="front face">
                     <img src={process.env.PUBLIC_URL + 'location.png'}
                         alt="Responsive ima 6"  />
-                        <h6>Fertilizers Recommend</h6>                    </div>
+                        <h6>Interface Connectivity</h6>                    </div>
                     <div className="back face center">
-                        <p>This is nice for exposing more information about an image.</p>
-                        <p>Any content can go here.</p>
+                        <p>•System that provides farmers an
+                            interface to sell their produce, and
+                            connect with the buyers all over
+                            India o Simple interface that
+                            works on mobile.
+                            </p>
                     </div>
                     </div>
                     </div>
